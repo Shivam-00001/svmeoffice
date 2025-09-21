@@ -160,6 +160,68 @@ a{color:inherit;text-decoration:none}
 .trust{ margin-top:22px; color:var(--muted); display:flex; gap:14px; justify-content:center; flex-wrap:wrap; font-size:14px }
 .dot{ width:6px; height:6px; background:var(--muted); border-radius:50%; display:inline-block; margin-right:6px }
 
+/* ---------- Floating Social Media Icons ---------- */
+.social-floating {
+  position: fixed;
+  top: 40%;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.social-floating .social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;              /* Circle size */
+  height: 40px;             /* Circle size */
+  background-color: #333;   /* Circle background */
+  border-radius: 50%;       /* Makes it circular */
+  overflow: hidden;         /* Ensures image stays inside circle */
+  transition: all 0.3s ease;
+}
+
+.social-floating .social-icon img {
+  width: 65%;               /* Image size inside the circle */
+  height: 65%;              /* Image size inside the circle */
+  object-fit: contain;      /* Keeps aspect ratio */
+  transition: transform 0.3s ease;
+}
+
+.social-floating .social-icon:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+}
+
+.social-floating .social-icon:hover img {
+  transform: scale(1.2);    /* Image zoom on hover */
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .social-floating {
+    top: auto;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .social-floating .social-icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .social-floating .social-icon img {
+    width: 70%;
+    height: 70%;
+  }
+}
+
+
 /* ---------- Services ---------- */
 .services .cards{
   display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
@@ -302,7 +364,4 @@ a{color:inherit;text-decoration:none}
 /* ---------- Scroll reveal ---------- */
 .reveal{ opacity:0; transform: translateY(14px); transition:.6s ease }
 .reveal.visible{ opacity:1; transform: translateY(0) }
-
-
-
 

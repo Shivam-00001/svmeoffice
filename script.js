@@ -1,5 +1,5 @@
 /* === Rotating Hero Words === */
-const words = ["Graphics", "Logos", "Instagram Posts", "YouTube Edits", "Wedding Films", "Brand Videos"];
+const words = ["Graphics", "Add's","Logos", "Instagram Posts", "YouTube Videos & Edit's", "Wedding Films", "Brand Videos"];
 const target = document.getElementById("changing-text");
 let idx = 0;
 function rotateWord() {
@@ -23,7 +23,7 @@ const PARTICLE_COUNT = 28;
 function spawnParticle() {
   const p = document.createElement("div");
   p.className = "particle";
-  const size = 6 + Math.random() * 14;
+  const size = 7 + Math.random() * 14;
   p.style.width = size + "px";
   p.style.height = size + "px";
   p.style.left = Math.random() * 100 + "vw";
@@ -83,3 +83,4 @@ const navLinks = document.getElementById("nav-links");
 menuToggle?.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
+

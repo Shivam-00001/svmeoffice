@@ -368,6 +368,88 @@ a{color:inherit;text-decoration:none}
 .stats strong{ font-size:20px; display:block }
 .stats span{ color:var(--muted); font-size:12px }
 
+.about-card.reveal{
+    position:relative;
+    overflow:hidden;
+
+    min-height:500px;   /* image area */
+
+    border-radius:24px;
+
+    background:url("/assets/about.png") center/cover no-repeat;
+}
+
+/* Dark overlay */
+.about-card.reveal::before{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:
+    linear-gradient(
+        to top,
+        rgba(0,0,0,.95) 0%,
+        rgba(0,0,0,.75) 35%,
+        rgba(0,0,0,.15) 70%,
+        rgba(0,0,0,0) 100%
+    );
+}
+
+/* Bottom Content */
+.about-content{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+
+    padding:30px;
+
+    z-index:2;
+}
+
+.about-content h3{
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.about-content p{
+    color:#ddd;
+    margin-bottom:20px;
+}
+
+/* Stats */
+.stats{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.stats div{
+    flex:1;
+    min-width:120px;
+
+    padding:15px;
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:16px;
+
+    text-align:center;
+}
+
+.stats strong{
+    display:block;
+    font-size:28px;
+    color:#fff;
+}
+
+.stats span{
+    color:#d8d8d8;
+}
 /* ---------- Contact ---------- */
 .contact-form{
   background:var(--card); border:1px solid var(--stroke); border-radius:18px; padding:18px; box-shadow:var(--shadow);

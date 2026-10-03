@@ -1,0 +1,282 @@
+export default function Blogs() {
+  return (
+    <>
+
+  <section class="section">
+    <div class="container">
+{/* <!-- Special Offer Banner -->
+<!-- PAGE TITLE --> */}
+
+<h1 class="section-title">SVM GroWin Blogs & Updates</h1>
+
+<p class="section-desc">
+Latest offers, service updates, business tips, creative ideas,
+industry trends and announcements from SVM GroWin.
+</p>
+
+{/* <!-- HERO --> */}
+
+<div class="project-intro">
+
+    <span class="project-badge">
+        📰 News • Offers • Updates
+    </span>
+
+    <h2>Latest Insights, Deals & Service Announcements</h2>
+
+    <p>
+        Stay informed with our latest offers, event services,
+        graphic design updates, photography news, business tips
+        and special discounts.
+    </p>
+
+</div>
+
+{/* <!-- DEAL OF THE DAY --> */}
+
+<div class="testimonial">
+
+    <h3>🔥 Deal Of The Day</h3>
+
+    <p>
+        Wedding Shoot + Wedding Video Editing Package
+        available with special seasonal discounts.
+    </p>
+
+    <h4>Offer Valid Till Midnight</h4>
+
+</div>
+
+{/* <!-- OFFERS --> */}
+
+<div class="project-details">
+
+    <h3>🎁 Running Offers</h3>
+
+    <div class="process-grid">
+
+        <div class="process-card">
+            <span>30%</span>
+            <h4>Wedding Shoot</h4>
+            <p>Special booking discount available.</p>
+        </div>
+
+        <div class="process-card">
+            <span>25%</span>
+            <h4>Graphic Design</h4>
+            <p>Logo and branding packages.</p>
+        </div>
+
+        <div class="process-card">
+            <span>20%</span>
+            <h4>Tent House</h4>
+            <p>Complete event setup offers.</p>
+        </div>
+
+        <div class="process-card">
+            <span>15%</span>
+            <h4>Photography</h4>
+            <p>Wedding and event photography.</p>
+        </div>
+
+    </div>
+
+</div>
+
+{/* <!-- STATS --> */}
+
+<div class="project-stats">
+
+    <div class="stat-card">
+        <h2>10+</h2>
+        <p>Professional Services</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>500+</h2>
+        <p>Happy Clients</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>100+</h2>
+        <p>Completed Projects</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>24/7</h2>
+        <p>Customer Support</p>
+    </div>
+
+</div>
+
+{/* <!-- FEATURED SERVICES --> */}
+
+<div class="project-details">
+
+    <h3>⭐ Featured Services</h3>
+
+    <div class="tech-stack">
+
+        <span>Wedding Shoot</span>
+        <span>Wedding Video Edit</span>
+        <span>Photography</span>
+        <span>Graphic Design</span>
+        <span>Tent House</span>
+        <span>Banquet Hall</span>
+        <span>Vehicle Services</span>
+        <span>Cultural Dance</span>
+        <span>Event Entertainment</span>
+        <span>Photo Framing</span>
+
+    </div>
+
+</div>
+
+{/* <!-- BLOG ARTICLES --> */}
+
+<div class="project-details">
+
+    <h3>📚 Featured Articles</h3>
+
+    <div class="process-grid">
+
+        <div class="process-card">
+            <span>01</span>
+            <h4>Perfect Wedding Planning</h4>
+            <p>Essential tips for organizing successful events.</p>
+        </div>
+
+        <div class="process-card">
+            <span>02</span>
+            <h4>Graphic Design Trends</h4>
+            <p>Latest creative branding and design ideas.</p>
+        </div>
+
+        <div class="process-card">
+            <span>03</span>
+            <h4>Photography Secrets</h4>
+            <p>Professional tips for stunning photographs.</p>
+        </div>
+
+        <div class="process-card">
+            <span>04</span>
+            <h4>Business Growth Ideas</h4>
+            <p>Strategies to attract more customers.</p>
+        </div>
+
+    </div>
+
+</div>
+
+{/* <!-- LATEST UPDATES --> */}
+
+<div class="project-details">
+
+    <h3>📢 Latest Updates</h3>
+
+    <ul>
+        <li>Wedding Season Booking Open</li>
+        <li>New Banquet Hall Partners Added</li>
+        <li>Vehicle Service Fleet Expanded</li>
+        <li>Graphic Design Packages Updated</li>
+        <li>Photography Team Available For Events</li>
+        <li>Tent House Premium Setup Available</li>
+        <li>Cultural Dance Programs Added</li>
+        <li>Event Entertainment Booking Started</li>
+    </ul>
+
+</div>
+
+{/* <!-- BUSINESS TIPS --> */}
+
+<div class="project-details">
+
+    <h3>💡 Business Tips & Insights</h3>
+
+    <div class="process-grid">
+
+        <div class="process-card">
+            <span>01</span>
+            <h4>Branding</h4>
+            <p>Build trust with strong visual identity.</p>
+        </div>
+
+        <div class="process-card">
+            <span>02</span>
+            <h4>Marketing</h4>
+            <p>Reach more customers effectively.</p>
+        </div>
+
+        <div class="process-card">
+            <span>03</span>
+            <h4>Content</h4>
+            <p>Create engaging content for growth.</p>
+        </div>
+
+        <div class="process-card">
+            <span>04</span>
+            <h4>Customer Service</h4>
+            <p>Deliver quality experiences consistently.</p>
+        </div>
+
+    </div>
+
+</div>
+
+{/* <!-- SERVICES COVERED --> */}
+
+<div class="project-details">
+
+    <h3>🏷 Topics We Cover</h3>
+
+    <div class="tech-stack">
+
+        <span>Wedding Planning</span>
+        <span>Photography</span>
+        <span>Video Editing</span>
+        <span>Graphic Design</span>
+        <span>Branding</span>
+        <span>Printing</span>
+        <span>Banquet Hall</span>
+        <span>Tent House</span>
+        <span>Vehicle Booking</span>
+        <span>Event Entertainment</span>
+        <span>Cultural Dance</span>
+        <span>Business Promotion</span>
+
+    </div>
+
+</div>
+
+{/* <!-- NEWSLETTER --> */}
+
+<div class="testimonial">
+
+    <h3>📬 Stay Connected</h3>
+
+    <p>
+        Follow SVM GroWin for the latest offers,
+        service updates, creative ideas, event solutions
+        and business growth insights.
+    </p>
+
+    <h4>New Updates Every Week</h4>
+
+</div>
+
+
+
+      {/* Back Button */}
+          <div className="back-btn-wrap">
+            <a href="/#portfolio" className="btn primary">
+              ← Back to Portfolio
+            </a>
+          </div>
+
+        </div>
+      </section>
+    </>
+  );
+}
+
+

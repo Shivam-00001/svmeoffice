@@ -1,0 +1,192 @@
+
+
+  export default function Photography() {
+  return (
+    <>
+    {/* <!-- Main Content --> */}
+  <section class="section">
+    <div class="container">
+<h1 class="section-title">Photography Services</h1>
+
+<p class="section-desc">
+Professional photography services for weddings, events, portraits, products and commercial projects with high-quality editing.
+</p>
+      {/* <!-- Project Intro --> */}
+     <div className="project-intro">
+  <img
+    src="/assets/Photography.png"
+    className="intro-img"
+    alt="service image"
+  />
+</div>
+  <div class="intro-content">
+        <span class="project-badge">Professional Photography Project</span>
+
+        <h2>Capturing Stories Through Photography</h2>
+
+        <p>
+          Photography is more than just taking pictures — it is about
+          preserving emotions, moments, and memories that last forever.
+          Our professional photography services focus on creativity,
+          precision, and visual storytelling.
+        </p>
+
+        <p>
+          From events and weddings to commercial products and portraits,
+          every frame is carefully planned and edited to deliver stunning,
+          high-quality results suitable for print, digital media, and branding.
+        </p>
+  </div>
+      </div>
+
+      {/* <!-- Project Stats --> */}
+      <div class="project-stats">
+
+        <div class="stat-card">
+          <h2>4K+</h2>
+          <p>High Resolution Images</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>100%</h2>
+          <p>Client Satisfaction</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>500+</h2>
+          <p>Photos Delivered</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>Pro</h2>
+          <p>Photography Workflow</p>
+        </div>
+
+      </div>
+
+      {/* <!-- Photography Process --> */}
+      <div class="project-details">
+
+        <h3>Photography Process</h3>
+
+        <div class="process-grid">
+
+          <div class="process-card">
+            <span>01</span>
+            <h4>Planning</h4>
+            <p>Understanding client requirements and shoot objectives.</p>
+          </div>
+
+          <div class="process-card">
+            <span>02</span>
+            <h4>Photoshoot</h4>
+            <p>Capturing high-quality images with professional equipment.</p>
+          </div>
+
+          <div class="process-card">
+            <span>03</span>
+            <h4>Editing</h4>
+            <p>Color correction, retouching and image enhancement.</p>
+          </div>
+
+          <div class="process-card">
+            <span>04</span>
+            <h4>Delivery</h4>
+            <p>Providing optimized digital and print-ready photos.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* <!-- Photography Services --> */}
+      <div class="project-details">
+
+        <h3>Photography Services</h3>
+
+        <ul>
+          <li>Wedding Photography</li>
+          <li>Event Photography</li>
+          <li>Portrait Photography</li>
+          <li>Product Photography</li>
+          <li>Corporate Photography</li>
+          <li>Fashion Photography</li>
+          <li>Food Photography</li>
+          <li>Outdoor & Nature Photography</li>
+          <li>Commercial Brand Shoots</li>
+          <li>Social Media Content Photography</li>
+        </ul>
+
+      </div>
+
+      {/* <!-- Equipment & Tools --> */}
+      <div class="project-details">
+
+        <h3>Equipment & Tools Used</h3>
+
+        <div class="tech-stack">
+
+          <span>DSLR Cameras</span>
+          <span>Mirrorless Cameras</span>
+          <span>Prime Lenses</span>
+          <span>Telephoto Lenses</span>
+          <span>Studio Lighting</span>
+          <span>Softbox Setup</span>
+          <span>Tripod Support</span>
+          <span>Adobe Lightroom</span>
+          <span>Adobe Photoshop</span>
+          <span>Color Correction</span>
+          <span>Photo Retouching</span>
+          <span>RAW Processing</span>
+          <span>Print Optimization</span>
+          <span>AI Enhancement Tools</span>
+
+        </div>
+
+      </div>
+
+      {/* <!-- Deliverables --> */}
+      <div class="project-details">
+
+        <h3>Deliverables</h3>
+
+        <ul>
+          <li>High Resolution Photos</li>
+          <li>Edited & Retouched Images</li>
+          <li>Album Ready Files</li>
+          <li>Print Ready Images</li>
+          <li>Social Media Optimized Photos</li>
+          <li>RAW File Support (Optional)</li>
+          <li>Cloud Delivery & Backup</li>
+          <li>Custom Photography Packages</li>
+        </ul>
+
+      </div>
+
+      {/* <!-- Client Feedback --> */}
+      <div class="testimonial">
+
+        <h3>Client Feedback</h3>
+
+        <p>
+          "The photography quality was outstanding. Every image captured
+          the emotion and atmosphere perfectly. The editing was professional,
+          and the final delivery exceeded our expectations."
+        </p>
+
+        <h4>— Happy Client</h4>
+
+      </div>
+
+       {/* <!-- Back Button --> */}
+
+          {/* Back Button */}
+          <div className="back-btn-wrap">
+            <a href="/#portfolio" className="btn primary">
+              ← Back to Portfolio
+            </a>
+          </div>
+      </section>
+    </>
+  );
+}

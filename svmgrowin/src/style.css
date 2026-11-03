@@ -626,7 +626,7 @@ a{color:inherit;text-decoration:none}
     margin:50px 0;
     backdrop-filter:blur(12px);
     box-shadow:var(--shadow);
-    position:relative;
+    ¬position:relative;
     overflow:hidden;
 }
 
